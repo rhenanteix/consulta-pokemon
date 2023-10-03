@@ -1,0 +1,281 @@
+.container {
+  margin: 32px auto;
+  max-width: 652px;
+  width: 100%;
+}
+
+.container > .title {
+  color: #1D1D1D;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  text-align: center;
+}
+
+.form {
+  margin: 0 auto;
+  max-width: 548px;
+}
+
+
+.form > hr {
+  border: 1px solid #D5D5D5;
+}
+
+.error {
+  color: var(--color-primary);
+  font-size: 11px;
+  font-weight: 400;
+  margin-top: 8px;
+  position: absolute;
+}
+
+
+.input {
+  background-color: var(--color-white);
+  border: 1px solid #D5D5D5;
+  border-radius: 8px;
+  color: #747474;
+  font-size: 14px;
+  font-weight: 500;
+  height: 45px;
+  line-height: 17px;
+  margin-top: 8px;
+  padding: 13px 15px;
+  width: 100%;
+}
+
+.input:focus,
+.input:active {
+  outline: none;
+}
+
+.label {
+  color: #1D1D1D;
+  left: 16px;
+  line-height: 22px;
+  pointer-events: none;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+}
+
+
+.selectContainer {
+  position: relative;
+  width: 100%;
+}
+
+.select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: var(--color-white);
+  border: 1px solid #D5D5D5;
+  border-radius: 8px;
+  color: #747474;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  height: 45px;
+  line-height: 17px;
+  margin-top: 8px;
+  padding: 13px 15px;
+  width: 100%;
+}
+
+.select:focus + .icon {
+  transform: rotate(360);
+}
+
+.select:active,
+.select:focus {
+  outline: none;
+}
+
+.select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px var(--color-white) inset;
+}
+
+.select:-ms-expand {
+  display: none;
+}
+
+.select:disabled {
+  cursor: no-drop;
+}
+
+.options {
+  background: var(--color-white);
+  border: 1px solid #D5D5D5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.09);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  top: 40px;
+  left: 0;
+  padding: 8px 14px;
+  position: absolute;
+  width: 100%;
+}
+
+.selectContainer > .icon {
+  height: 39px;
+  pointer-events: none;
+  position: absolute;
+  right: 16px;
+  top: 30px;
+  width: 21px;
+}
+
+.field-group {
+  align-items: center;
+  display: flex;
+  gap: 18px;
+  margin: 32px auto 32px;
+  max-width: 558px;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .field-group,
+  .resume {
+    flex-wrap: wrap;
+    padding: 16px;
+    margin: initial
+  }
+
+  .field-group > fieldset {
+    max-width: 100%;
+  }
+
+  .pokemons,
+  .details-schedule {
+    padding: 16px;
+  }
+
+  .pokemons > .list > .item {
+    flex-wrap: wrap;
+  }
+
+  .pokemons > .list > .item > fieldset,
+  .resume > button {
+    max-width: 100% !important;
+  }
+
+  .resume {
+    margin-top: 0 !important;
+    gap: 20px;
+  }
+}
+
+
+.field-group > fieldset {
+  max-width: 265px;
+  width: 100%;
+}
+
+.pokemons {
+  margin-top: 32px;
+}
+
+.pokemons > .title {
+  color: #1D1D1D;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+}
+
+.pokemons > .subtitle {
+  color: #747474;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+}
+
+.pokemons > .list {
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+.pokemons > .list > .item {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pokemons > .list > .item > fieldset {
+  max-width: 438px;
+  width: 100%;
+}
+
+.pokemons > .list > .item > fieldset > .selectContainer > .icon {
+  top: 13px;
+}
+
+.pokemons > .list > .item > .pokemon-counter {
+  color: #1D1D1D;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+}
+
+.pokemons > .btn-outline {
+  background-color: transparent;
+  border: 1px solid #1D1D1D;
+  border-radius: 30px;
+  color: #1D1D1D;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+  height: 42px;
+  line-height: 15px;
+  max-width: 253px;
+  padding: 14px;
+  width: 100%;
+}
+
+.pokemons > .btn-disabled {
+  cursor: default;
+  pointer-events: none;
+  opacity: .5;
+}
+
+.details-schedule {
+  color: #747474;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  margin-top: 24px;
+}
+
+.details-schedule > ul > li {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.details-schedule > span {
+  color: #747474;
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 10px;
+}
+
+.resume {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.resume > button {
+  max-width: 183px;
+}
+
+.resume > h3 {
+  color: #1D1D1D;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+}

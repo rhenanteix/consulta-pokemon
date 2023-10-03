@@ -1,0 +1,23 @@
+.content {
+  color: var(--color-black);
+  margin: 34px auto 72px;
+  max-width: 408px;
+  width: 100%;
+}
+
+.content > h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.content > h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    padding: 16px;
+  }
+}

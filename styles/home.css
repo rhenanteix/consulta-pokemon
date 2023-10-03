@@ -1,0 +1,20 @@
+.hero {
+  align-items: center;
+  background-image: url("../public//images/pokemon-hero.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+  height: 720px;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.hero > .title {
+  color: var(--color-white);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  max-width: 509px;
+  width: 100%;
+
+}
