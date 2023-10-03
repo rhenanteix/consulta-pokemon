@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> tests 1`] = `
+<div>
+  <header
+    class="header"
+  >
+    <div
+      class="pokeball-brand"
+    >
+      <div
+        class="menu open"
+      >
+        <img
+          alt="Centro Pokémon"
+          data-nimg="1"
+          decoding="async"
+          height="34"
+          loading="lazy"
+          src="/images/white-pokeball.svg"
+          srcset="/images/white-pokeball.svg 1x, /images/white-pokeball.svg 2x"
+          style="color: transparent;"
+          width="34"
+        />
+        <p
+          class="text"
+        >
+          Centro Pokémon
+        </p>
+      </div>
+    </div>
+    <ul
+      class="nav"
+    >
+      <li
+        class="item"
+      >
+        <a
+          class="link"
+          href="/quem-somos"
+        >
+          Quem Somos
+        </a>
+      </li>
+      <li
+        class="item"
+      >
+        <button
+          class="btn"
+        >
+          Agendar Consulta
+        </button>
+      </li>
+    </ul>
+  </header>
+</div>
+`;

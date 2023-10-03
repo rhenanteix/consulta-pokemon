@@ -1,0 +1,23 @@
+.btn {
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 30px;
+  color: var(--color-white);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  height: 42px;
+  line-height: 17px;
+  min-width: 172px;
+  transition: all 1s;
+  width: 100%;
+}
+
+.btn:disabled {
+  opacity: .555;
+  pointer-events: none;
+}
+
+.btn:hover {
+  opacity: .555;
+}

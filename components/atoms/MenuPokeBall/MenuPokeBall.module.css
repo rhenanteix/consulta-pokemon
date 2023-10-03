@@ -1,0 +1,45 @@
+.menu {
+  align-items: center;
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  gap: 20px;
+  height: 62px;
+  padding: 13px 15px;
+  transition: all 1.5s;
+  width: 100%;
+}
+
+.menu:hover {
+  max-width: 269px;
+}
+
+.menu:hover > .text {
+  opacity: 1;
+}
+
+.text {
+  color: var(--color-white);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.close {
+  max-width: 62px;
+}
+
+.close > .text {
+  opacity: 0;
+}
+
+.open {
+  max-width: 269px;
+}
+
+.open > .text {
+  opacity: 1;
+}

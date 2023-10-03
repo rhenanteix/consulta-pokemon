@@ -1,0 +1,49 @@
+.step {
+  align-items: center;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  display: flex;
+  height: 187px;
+  padding: 32px;
+  width: 100%;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.nav {
+  align-items: center;
+  display: flex;
+  gap: 17px;
+}
+
+.item {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  position: relative;
+}
+
+.item:first-child::after {
+  color: #EEEEEE;
+  content: '>';
+  left: 40px;
+  position: absolute;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  margin: 12px 0 12px;
+}
+
+.slogan {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  color: #EEEEEE;
+}
